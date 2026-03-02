@@ -1,0 +1,622 @@
+
+header{
+    display: flex;
+    margin-left: 1%;
+    margin-top: 1%;
+    height: 100px;
+    position: relative;
+
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+
+.logo{
+    display: flex;
+    width: 150px;
+    height: 150px;
+}
+
+
+.catalogs-text{
+    display: flex;
+    text-align: center;
+    margin-left: 25%;
+    margin-top: 105px;
+    font-size: 32px;
+    font-weight: 700;
+    color: #000000;
+    text-align: left;
+}
+
+
+.textwoman{
+    margin-left: 250px;
+}
+
+.textkids{
+    margin-left: 250px;
+}
+
+
+
+.support-text{
+    margin-top: 115px;
+    margin-left: 450px;
+    position: absolute;
+
+}
+
+
+.support-img{
+    width: 100px;
+    height: 100px;
+    margin-left: 525px;
+    position: absolute;
+}
+
+
+
+.korzimg{
+    width: 75px;
+    height: 75px;
+    margin-left: 850px;
+    margin-top: 50px;
+    position: absolute;
+}
+
+
+
+.polosa{
+    width: 100%;
+    height: 2px;
+    background-color: black;
+    margin-top: 50px;
+}
+
+
+footer{
+    position: absolute;
+    bottom: 0px;
+    height: 100px;
+}
+
+.footer-block{
+    width: 2535px;
+    height: 100px;
+    background-color: #282c31;;
+}
+
+.footer-text{
+    font-size: 35px;
+    position: absolute;
+    margin-left: 1000px;
+    margin-top: 25px;
+    color: #d3d7da;
+}
+
+
+
+.imgvk{
+    width: 50px;
+    margin-left: 90%;
+    margin-top: 25px;
+}
+.imginst{
+    width: 50px;
+    margin-left: 15px;
+}
+
+
+
+
+
+.contact-information{
+    margin-left: 1050px;
+    margin-top: 100px;
+}
+
+.partnership-img{
+    width: 150px;
+    height: 150px;
+    margin-left: 600px;
+}
+
+.technical-support-img{
+    width: 200px;
+    height: 150px;
+    margin-left: 325px;
+}
+
+.phone-img{
+    width: 200px;
+    height: 150px;
+    margin-left: 325px;
+}
+
+.partnership-text{
+    margin-left: 565px;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.partnership-email{
+    color: #0000ff;
+    margin-left: 600px;
+}
+.partnership-email:hover{
+    text-decoration: underline;
+    
+}
+
+
+
+.sotrtel{
+    margin-left: 600px;
+}
+.sotrtell{
+    margin-left: 500px;
+}
+
+
+.technical-support-text{
+    margin-left: 265px;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+
+.support-email{
+    margin-left: 340px;
+    color: #0000ff;
+}
+
+.support-email:hover{
+    text-decoration: underline;
+}
+
+
+.phone-text{
+    margin-left: 325px;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+
+.phone{
+    color: #0000ff;
+    margin-left: 380px;
+}
+
+.phone:hover{
+    text-decoration: underline;
+}
+
+
+.line{
+    margin-top: 100px;
+    width: 100%;
+    height: 2px;
+    background-color: black;
+}
+
+/* Стили для формы */
+.ImyaBut, .EmailBut, .telbut, .message-text, .submtp {
+    border: 1px solid orange;
+    border-radius: 5px;
+    box-sizing: border-box;
+    background-color: orange;
+    color: black;
+    font-weight: bold;
+}
+.submtp {
+    background-color: darkorange;
+    border: 1px solid darkorange;
+    cursor: pointer;
+}
+
+.submtp:hover {
+    background-color: orange;
+    border: 1px solid orange;
+}
+/*  */
+
+.EmailBut{
+    margin-left: 740px;
+    height: 50px;
+    margin-top: 250px;
+    border: 2px solid orange;
+    position: absolute;
+}
+
+.ImyaBut{
+    margin-left: 740px;
+    margin-top: 168px;
+    height: 50px;
+    border: 2px solid orange;
+    position: absolute;
+}
+
+.telbut{
+    margin-left: 740px;
+    margin-top: 352px;
+    height: 50px;
+    border: 2px solid orange;
+    position: absolute; 
+}
+
+
+
+.message-text{
+    width: 500px;
+    height: 250px;
+    position: absolute;
+    margin-left: 935px;
+    margin-top: 150px;
+    border: 2px solid orange;
+    resize: none;
+}
+
+.submtp{
+    margin-left: 1500px;
+    margin-top: 350px;
+    height: 50px;
+    width: 250px;
+}
+
+.submtp:active{
+    border: 2px solid rgb(85, 55, 0); 
+}
+
+
+
+.authorization{
+    width: 150px;
+    height: 45px;
+    position: absolute;
+    left: 65.5%;
+    top: 55px;
+    background-color: black;
+    color: white;
+    text-transform: uppercase;
+    text-decoration: none;
+    border-radius: 5px;
+    border: 2px solid black;
+    transition: all 0.3s;
+}
+
+.authorization:hover{
+    background-color: white;
+    color: black;
+    border-color: black;
+}
+
+.authorization:active{
+    background-color: orange;
+    color: white;
+    border-color: orange;
+}
+
+
+/* Адаптация для разрешения 1920px на 1080px */
+@media screen and (max-width: 1920px) and (max-height: 1080px) {
+    .support-img{
+        margin-left: 300px;
+    }
+    .korzimg{
+        margin-left: 525px;
+    }
+    .support-text{
+        margin-left: 225px;
+    }
+    .catalogs-text{
+        margin-left: 350px;
+    }
+    .authorization{
+        left: 66.5%;
+    }
+    footer{
+        bottom: -31px;
+    }
+    .footer-block{
+        width: 1910px;
+    }
+    .footer-text{
+        margin-left: 775px;
+    }
+    .contact-information {
+        margin-left: 860px;
+        margin-top: 45px;
+    }
+    .partnership-img {
+        margin-left: 415px;
+    }
+    .partnership-text {
+        margin-left: 380px;
+    }
+    .technical-support-text {
+        margin-left: 265px;
+    }
+    .partnership-email {
+        margin-left: 425px;
+    }
+    .ImyaBut {
+        margin-left: 598px;
+        margin-top: 30px;
+    }
+    .EmailBut {
+        margin-left: 598px;
+        margin-top: 110px;
+    }
+    .telbut {
+        margin-left: 598px;
+        margin-top: 212px;
+    }
+    .message-text {
+        margin-left: 810px;
+        margin-top: 12px;
+    }
+    .submtp {
+        margin-left: 1350px;
+        margin-top: 212px;
+    }
+
+}
+
+@media screen and (max-width: 1920px) and (max-height: 1000px) {
+
+    footer{
+        bottom: -183px;
+    }
+    .footer-block{
+        width: 1890px;
+    }
+    .footer-text{
+        margin-left: 775px;
+    }
+    
+    .contact-information{
+        margin-left: 735px;
+    }
+    .partnership-img{
+        margin-left: 300px;
+    }
+    .partnership-text{
+        margin-left: 260px;
+    }
+    .partnership-email{
+        margin-left: 300px;
+    }
+
+    .ImyaBut {
+        margin-left: 553px;
+        margin-top: 30px;
+    }
+    .EmailBut {
+        margin-left: 553px;
+        margin-top: 110px;
+    }
+    .telbut {
+        margin-left: 553px;
+        margin-top: 212px;
+    }
+    .message-text {
+        margin-left: 765px;
+        margin-top: 12px;
+    }
+    .submtp {
+        margin-left: 1305px;
+        margin-top: 212px;
+    }
+
+} 
+/* ↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑ */
+
+
+
+/* Адаптация для разрешения 1600px на 900px */
+@media screen and (max-width: 1600px) and (max-height: 900px) {
+    .catalogs-text {
+        margin-left: 190px;
+    }
+    .textwoman {
+        margin-left: 215px;
+    }
+    .textkids {
+        margin-left: 215px;
+    }
+    .authorization {
+        left: 64%;
+    }
+    .support-img {
+        margin-left: 252px;
+    }
+    .support-text {
+        margin-left: 170px;
+    }
+    .korzimg {
+        margin-left: 477px;
+    }
+    .footer-block {
+        width: 1590px;
+    }
+    .footer-text {
+        margin-left: 630px;
+    }
+    footer {
+        bottom: -120px;
+    }
+    .contact-information {
+        margin-left: 670px;
+        margin-top: 30px;
+    }
+    .partnership-img {
+        margin-left: 225px;
+    }
+    .partnership-text {
+        margin-left: 200px;
+    }
+    .partnership-email {
+        margin-left: 243px;
+    }
+    .ImyaBut {
+        margin-left: 370px;
+    }
+    .EmailBut {
+        margin-left: 370px;
+    }
+    .telbut {
+        margin-left: 370px;
+    }
+    .message-text {
+        margin-left: 595px;
+    }
+    .submtp{
+        margin-left: 1135px;
+    }
+}
+
+@media screen and (max-width: 1600px) and (max-height: 890px) {
+
+    footer{
+        bottom: -250px;
+    }
+    .footer-block {
+        width: 1575px;
+    }
+    .contact-information {
+        margin-left: 650px;
+    }
+    .partnership-img {
+        margin-left: 210px;
+    }
+    .partnership-text {
+        margin-left: 175px;
+    }
+    .partnership-email {
+        margin-left: 210px;
+    }
+
+}
+
+/* ↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑ */
+
+
+
+
+/* Адаптация для разрешения 1366px на 768px */
+@media screen and (max-width: 1366px) and (max-height: 768px) {
+
+    footer{
+        bottom: -550px;
+    }
+    .footer-block{
+        width: 1355px;
+    }
+    .footer-text{
+        margin-left: 500px;
+    }
+
+    .catalogs-text{
+        margin-left: 150px;
+    }
+    .textwoman{
+        margin-left: 125px;
+    }
+    .textkids{
+        margin-left: 125px;
+    }
+    .authorization {
+        left: 58.4%;
+        width: 110px;
+        height: 45px;
+    }
+    .support-img {
+        margin-left: 215px;
+    }
+    .support-text {
+        margin-left: 140px;
+    }
+    .korzimg {
+        margin-left: 450px;
+    }
+    .contact-information {
+        margin-left: 555px;
+    }
+    .partnership-img {
+        margin-left: 105px;
+    }
+    .partnership-text {
+        margin-left: 79px;
+    }
+    .partnership-email {
+        margin-left: 123px;
+    }
+    .ImyaBut {
+        margin-left: 300px;
+    }
+    .EmailBut {
+        margin-left: 300px;
+    }
+    .telbut {
+        margin-left: 300px;
+    }
+    .message-text {
+        margin-left: 520px;
+    }
+    .submtp {
+        margin-left: 1065px;
+    }
+
+    .line{
+        margin-bottom: 70px;
+    }
+
+}
+
+@media screen and (max-width: 1366px) and (max-height: 760px) {
+
+    footer{
+        bottom: -350px;
+    }
+    .footer-block{
+        width: 1340px;
+    }
+    .contact-information {
+        margin-left: 525px;
+    }
+    .partnership-img {
+        margin-left: 80px;
+    }
+    .partnership-text {
+        margin-left: 54px;
+    }
+    .partnership-email {
+        margin-left: 98px;
+    }
+    .line {
+        margin-top: 20px;
+        margin-bottom: 0px;
+    }
+    .ImyaBut {
+        margin-left: 200px;
+    }
+    .EmailBut{
+        margin-left: 200px;
+    }
+    .telbut{
+        margin-left: 200px;
+    }
+    .message-text{
+        margin-left: 425px;
+    }
+    .submtp{
+        margin-left: 975px;;
+    }
+
+}  
+
+/* ↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑ */

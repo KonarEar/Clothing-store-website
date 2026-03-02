@@ -1,0 +1,589 @@
+
+header{
+    display: flex;
+    margin-left: 1%;
+    margin-top: 1%;
+    height: 100px;
+    position: relative;
+
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+
+.logo{
+    display: flex;
+    width: 150px;
+    height: 150px;
+}
+
+.catalogs-text{
+    display: flex;
+    text-align: center;
+    margin-left: 25%;
+    margin-top: 105px;
+    font-size: 32px;
+    font-weight: 700;
+    color: #000000;
+    text-align: left;
+}
+
+
+.textwoman{
+    margin-left: 250px;
+}
+
+.textkids{
+    margin-left: 250px;
+}
+
+
+
+.support-text{
+    margin-top: 115px;
+    margin-left: 450px;
+    position: absolute;
+
+}
+
+
+.support-img{
+    width: 100px;
+    height: 100px;
+    margin-left: 525px;
+    position: absolute;
+}
+
+
+
+.korzimg{
+    width: 75px;
+    height: 75px;
+    margin-left: 850px;
+    margin-top: 50px;
+    position: absolute;
+}
+
+
+
+.polosa{
+    width: 100%;
+    height: 2px;
+    background-color: black;
+    margin-top: 50px;
+}
+
+
+footer{
+    position: absolute;
+    bottom: -95px;
+    height: 100px;
+}
+
+.footer-block{
+    width: 2535px;
+    height: 100px;
+    background-color: #282c31;;
+}
+
+.footer-text{
+    font-size: 35px;
+    position: absolute;
+    margin-left: 1000px;
+    margin-top: 25px;
+    color: #d3d7da;
+}
+
+
+
+.imgvk{
+    width: 50px;
+    margin-left: 90%;
+    margin-top: 25px;
+}
+.imginst{
+    width: 50px;
+    margin-left: 15px;
+}
+
+
+.boots-img{
+    margin-top: 50px;
+    width: 450px;
+    height: 300px;
+    border: 4px solid black; 
+    cursor: pointer; 
+    position: absolute;
+    border-radius: 8px;
+    transition: border-color 0.3s, transform 0.3s;
+    margin-left: 30px;
+}
+.boots-img:hover {
+    transform: scale(1.05);
+}
+
+
+
+.hoodie-img{
+    margin-top: 375px;
+    width: 450px;
+    height: 300px;
+    border: 4px solid black; 
+    cursor: pointer; 
+    position: absolute;
+    border-radius: 8px;
+    transition: border-color 0.3s, transform 0.3s;
+    margin-left: 30px;
+}
+.hoodie-img:hover {
+    transform: scale(1.05);
+}
+
+
+
+.pants-img{
+    margin-top: 700px;
+    width: 450px;
+    height: 300px;
+    border: 4px solid black; 
+    cursor: pointer;  
+    position: absolute;
+    border-radius: 8px;
+    transition: border-color 0.3s, transform 0.3s;
+    margin-left: 30px;
+}
+.pants-img:hover {
+    transform: scale(1.05);
+}
+
+
+
+
+
+
+
+
+.blockboots{
+    display: none;
+}
+.blockhydi{
+    display: none;
+}
+.blockpants{
+    display: none;
+}
+
+
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 -15px; 
+    margin-left: 750px;
+}
+
+.col-md-4 {
+    flex: 0 0 450px;
+    max-width: 450px;
+    padding: 0 15px;
+    margin-bottom: 30px; 
+}
+
+.card {
+    position: relative;
+    border: 4px solid black;
+    border-radius: 5px;
+    width: 450px;
+    height: 300px;
+    margin-bottom: 15px;
+    margin-left: 15px;
+    margin-right: 15px;
+    box-sizing: border-box;
+    overflow: hidden; 
+    padding: 0px;
+}
+
+.card img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+
+.card::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(255, 165, 0, 0.9);
+    transition: opacity 0.3s; 
+    opacity: 0; 
+}
+
+.card:hover::before {
+    opacity: 1; 
+}
+
+.card-body {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 100px;
+    background: rgba(0, 0, 0, 0.5);
+    color: white;
+    padding: 15px;
+    box-sizing: border-box;
+    transition: opacity 0.3s;
+    opacity: 0;
+}
+
+.card:hover .card-body {
+    opacity: 1;
+}
+
+.card-title,
+.card-text {
+    position: relative;
+    bottom: -10px;
+    left: 15px;
+    margin: 0;
+    color: white; 
+    opacity: 0; 
+    transition: opacity 0.3s; 
+    font-size: 20px;
+}
+
+.card:hover .card-title,
+.card:hover .card-text {
+    opacity: 1; 
+}
+
+
+.buybot1 {
+    width: 150px;
+    height: 50px;
+    position: relative;
+    left: 250px;
+    bottom: 35px;
+    background-color: #ff6600; 
+    color: #ffffff; 
+    border: 2px solid #ff6600; 
+    border-radius: 5px;
+    font-size: 16px; 
+    text-align: center; 
+    cursor: pointer; 
+    transition: background-color 0.3s, color 0.3s; 
+}
+
+.buybot1:hover {
+    background-color: #ff8533; 
+    color: #fff; 
+}
+
+
+
+.authorization{
+    width: 150px;
+    height: 45px;
+    position: absolute;
+    left: 65.5%;
+    top: 55px;
+    background-color: black;
+    color: white;
+    text-transform: uppercase;
+    text-decoration: none;
+    border-radius: 5px;
+    border: 2px solid black;
+    transition: all 0.3s;
+}
+
+.authorization:hover{
+    background-color: white;
+    color: black;
+    border-color: black;
+}
+
+.authorization:active{
+    background-color: orange;
+    color: white;
+    border-color: orange;
+}
+
+/* Адаптация для разрешения 1920px на 1080px */
+@media screen and (max-width: 1920px) and (max-height: 1080px) {
+    .support-img{
+        margin-left: 300px;
+    }
+    .korzimg{
+        margin-left: 525px;
+    }
+    .support-text{
+        margin-left: 225px;
+    }
+    .catalogs-text{
+        margin-left: 350px;
+    }
+    .authorization{
+        left: 66.5%;
+    }
+    .img-picture{
+        width: 1910px;
+    }
+    footer{
+        bottom: -235px;
+    }
+    .footer-block{
+        width: 1910px;
+    }
+    .footer-text{
+        margin-left: 775px;
+    }
+    .boots-img{
+        width: 425px;
+        height: 275px;
+    }
+    .hoodie-img{
+        margin-top: 355px;
+        width: 425px;
+        height: 275px;
+    }
+    .pants-img{
+        margin-top: 660px;
+        width: 425px;
+        height: 275px;
+    }
+    .card{
+        height: 300px;
+    }
+    .col-md-4 {
+        flex: 0 0 425px;
+    }
+    .row{
+        margin-left: 525px;
+        /* margin: 8px -15px;  */
+        margin-top: 0px;
+    }
+    .buybot1{
+        left: 235px;
+    }
+}
+
+@media screen and (max-width: 1920px) and (max-height: 1000px) {
+
+    footer{
+        bottom: -400px;
+    }
+    .footer-block{
+        width: 1890px;
+    }
+    .footer-text{
+        margin-left: 775px;
+    }
+} 
+/* ↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑ */
+
+
+
+/* Адаптация для разрешения 1600px на 900px */
+@media screen and (max-width: 1600px) and (max-height: 900px) {
+    .catalogs-text {
+        margin-left: 190px;
+    }
+    .textwoman {
+        margin-left: 215px;
+    }
+    .textkids {
+        margin-left: 215px;
+    }
+    .authorization {
+        left: 64%;
+    }
+    .support-img {
+        margin-left: 252px;
+    }
+    .support-text {
+        margin-left: 170px;
+    }
+    .korzimg {
+        margin-left: 477px;
+    }
+    .footer-block {
+        width: 1590px;
+    }
+    .footer-text {
+        margin-left: 630px;
+    }
+    .boots-img {
+        width: 385px;
+        height: 250px;
+    }
+    .hoodie-img{
+        width: 385px;
+        height: 250px;
+    }
+    .pants-img{
+        width: 385px;
+        height: 250px;
+    }
+    footer {
+        bottom: -363px;
+    }
+
+    .card{
+        height: 300px;
+    }
+    .col-md-4 {
+        flex: 0 0 340px;
+    }
+    .row{
+        margin-left: 480px;
+    }
+    .card-title, .card-text {
+        bottom: 0px;
+        left: 0px;
+    }
+    .buybot1 {
+        left: 155px;
+        bottom: 20px;
+    }
+
+}
+
+@media screen and (max-width: 1600px) and (max-height: 890px) {
+
+    footer{
+        bottom: -535px;
+    }
+    .footer-block {
+        width: 1575px;
+    }
+    .boots-img {
+        width: 365px;
+        height: 235px;
+    }
+    .hoodie-img{
+        width: 365px;
+        height: 235px;
+    }
+    .pants-img{
+        width: 365px;
+        height: 235px;
+    }
+    .card{
+        height: 275px;
+    }
+    .col-md-4 {
+        flex: 0 0 315px;
+    }
+    .row{
+        margin-left: 460px;
+        margin-top: 10px;
+    }
+    .card-title, .card-text {
+        bottom: 0px;
+        left: -10px;
+    }
+    .buybot1 {
+        left: 135px;
+        bottom: 20px;
+    }
+}
+/* ↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑ */
+
+
+
+
+
+
+/* Адаптация для разрешения 1366px на 768px */
+@media screen and (max-width: 1366px) and (max-height: 768px) {
+
+    footer{
+        bottom: -550px;
+    }
+    .footer-block{
+        width: 1355px;
+    }
+    .footer-text{
+        margin-left: 500px;
+    }
+
+    .catalogs-text{
+        margin-left: 150px;
+    }
+    .textwoman{
+        margin-left: 125px;
+    }
+    .textkids{
+        margin-left: 125px;
+    }
+    .authorization {
+        left: 58.4%;
+        width: 110px;
+        height: 45px;
+    }
+    .support-img {
+        margin-left: 215px;
+    }
+    .support-text {
+        margin-left: 140px;
+    }
+    .korzimg {
+        margin-left: 450px;
+    }
+
+    .boots-img{
+        width: 350px;
+        height: 250px;
+    }
+    .hoodie-img{
+        margin-top: 355px;
+        width: 350px;
+        height: 250px;
+    }
+    .pants-img{
+        margin-top: 660px;
+        width: 350px;
+        height: 250px;
+    }
+    .card{
+        height: 250px;
+    }
+    .col-md-4 {
+        flex: 0 0 275px;
+    }
+    .row{
+        margin-left: 425px;
+        margin-top: 25px;
+    }
+    .card-title, .card-text {
+        bottom: 15px;
+        left: 37px;
+        font-size: 20px;
+    }
+    .buybot1 {
+        left: 35px;
+        width: 170px;
+        height: 40px;
+        bottom: 10px;
+    }
+}  
+
+@media screen and (max-width: 1366px) and (max-height: 760px) {
+
+    footer{
+        bottom: -650px;
+    }
+    .footer-block{
+        width: 1340px;
+    }
+
+}  
+
+/* ↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑ */
